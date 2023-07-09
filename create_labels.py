@@ -2,7 +2,7 @@ import os
 from os import listdir
 
 file_with_labels = {}
-folder_dir = 'E:\Git Repositories\Create_Label_for_images\pet_images'
+folder_dir = 'pet_images'
 
 for images in os.listdir(folder_dir) :
     label = ''
