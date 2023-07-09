@@ -18,9 +18,9 @@ for images in os.listdir(folder_dir) :
 
 with open('result.txt','w') as file :
 
-    file.write("{:36s} {}\n".format("Image","Label"))
+    file.write("{:36s}|   {}\n".format("Image","Label"))
     file.write("-------------------------------------------------------------------\n")
     for key, values in file_with_labels.items() :
-        file.write(f"{key:36s}:{values}\n")
+        file.write(f"{key:36s}:  {values}\n")
     file.close()
 print("Successfully! reported the results into result.txt")
