@@ -1,6 +1,6 @@
 # Create_Label_for_images
 
-This project is a Python script that automates the process of creating labels for images. It simplifies the task of assigning labels or categories to a large number of images by using machine learning techniques.
+This project is a Python script that automates the process of creating labels for images. It simplifies the task of assigning labels or categories to a large number of images by using python libraries.
 
 ## Features
 
